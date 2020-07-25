@@ -1,0 +1,55 @@
+.Header {
+    background: #f8f8f8;
+    border: 0;
+    border-radius: 0;
+    color: #777;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.Header p {
+    font-size: 2rem;
+    line-height: 20px;
+    margin: 0 0 10px;
+    padding: 15px;
+}
+
+.Navbar {
+    list-style: none;
+    padding-left: 0;
+}
+
+.Navbar li {
+    line-height: 20px;
+    padding: 10px 15px;
+}
+
+.Navbar a {
+    color: #777;
+    text-decoration: none;
+}
+
+.Navbar li a:hover {
+    color: #1abc9c !important;
+}
+
+@media (min-width: 615px) {
+    .Header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Header p {
+        margin: 0;
+    }
+
+    .Navbar {
+        align-items: center;
+        display: flex;
+        margin: 0;
+    }
+}

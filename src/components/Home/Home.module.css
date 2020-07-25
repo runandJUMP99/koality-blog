@@ -1,0 +1,20 @@
+.Home {
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.Home h1 {
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 20px 0 10px;
+}
+
+.Home span {
+    color: #1abc9c;
+}
+
+.Home span:hover {
+    color: #ccc;
+    cursor: pointer;
+    text-decoration: none;
+}

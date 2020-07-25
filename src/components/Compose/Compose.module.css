@@ -1,0 +1,11 @@
+.Compose {
+    margin: auto;
+    max-width: 750px;
+    padding: 0 1rem;
+}
+
+.Compose h1 {
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 20px 0 10px;
+}
